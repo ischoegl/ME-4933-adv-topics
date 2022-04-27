@@ -22,6 +22,11 @@
 
 +++
 
+## `lambda` functions
+<hr>
+
++++
+
 ## Functions
 <hr>
 

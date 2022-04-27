@@ -34,7 +34,7 @@ jobs:
         name: JupyterBook
         path: _build/html
     - if: github.repository == 'ischoegl/ME-4933-adv-topics'
-      name: Commit documentation changes
+      name: Commit output to gh-pages branch
       run: |
         git clone https://github.com/ischoegl/ME-4933-adv-topics.git --branch gh-pages --single-branch gh-pages
         cp -r _build/html/* gh-pages/
@@ -47,7 +47,7 @@ jobs:
         # The above command will fail if no changes were present, so we ignore
         # that.
     - if: github.repository == 'ischoegl/ME-4933-adv-topics'
-      name: Push changes
+      name: Push changes to gh-pages branch
       uses: ad-m/github-push-action@master
       with:
         branch: gh-pages

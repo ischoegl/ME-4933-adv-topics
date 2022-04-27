@@ -1,0 +1,19 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: Fundamentals
+    chapters:
+    - file: chapter-ide/index.md
+    - file: chapter-python/index.md
+      sections:
+      - file: chapter-python/datatypes.md
+      - file: chapter-python/strings.md
+      - file: chapter-python/iterables.md
+    - file: chapter-programming/index.md
+    - file: chapter-packages/index.md
+  - caption: Topics
+    chapters:
+    - file: chapter-topics/index.md

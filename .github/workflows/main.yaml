@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    # Build when main or testing is pushed to
+    branches:
+      - main
+
+jobs:
+  jupyter-book:
+    name: Build Jupyter Book on Linux
+    runs-on: "ubuntu-latest"
+    defaults:
+      run:
+        shell: bash -l {0}
+    steps:
+    - name: Checkout the repository
+      uses: actions/checkout@v2
+    - name: Set up conda
+      uses: conda-incubator/setup-miniconda@v2
+      with:
+        python-version: 3.9
+        mamba-version: "*"
+        channels: conda-forge,defaults
+        channel-priority: true
+        activate-environment: jbook-build
+        environment-file: environment_build.yml
+    - name: Build Jupyter Book
+      run: |
+        jupyter-book build .
+    - name: Create artifact of the html output
+      uses: actions/upload-artifact@v2
+      with:
+        name: JupyterBook
+        path: _build/html

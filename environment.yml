@@ -1,0 +1,21 @@
+# conda package dependencies
+name: jbook
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  # - scipy
+  # - numba
+  # - dask
+  # - ruamel.yaml
+  # - imageio
+  - h5py
+  - ipython
+  - jupyter
+  - matplotlib
+  # -  pylint
+  - jupyter-book
+  - jupyterlab
+  - jupytext
+  # - tensorflow

@@ -1,0 +1,9 @@
+# conda package dependencies
+name: jbook-build
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - matplotlib
+  - jupyter-book

@@ -15,7 +15,9 @@ parts:
       - file: chapter-python/strings.md
       - file: chapter-python/iterables.md
     - file: chapter-programming/index.md
+  - caption: Scientific Python
+    chapters:
     - file: chapter-packages/index.md
-  - caption: Topics
+  - caption: Case Studies
     chapters:
     - file: chapter-topics/index.md

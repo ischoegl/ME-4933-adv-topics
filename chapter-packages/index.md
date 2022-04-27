@@ -32,6 +32,11 @@
 
 +++
 
+## h5py
+<hr>
+
++++
+
 ## Other packages
 <hr>
 

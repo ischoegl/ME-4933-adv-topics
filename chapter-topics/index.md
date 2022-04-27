@@ -5,6 +5,10 @@
 # Suggested Topics
 <hr>
 
+```{admonition} Work in progress
+*Everything* is up for discussion.
+```
+
 +++
 
 ## Differential Equations
@@ -18,6 +22,11 @@
 +++
 
 ## Image Processing
+<hr>
+
++++
+
+## Optimization
 <hr>
 
 +++

@@ -1,4 +1,4 @@
-name: CI
+name: deploy-book
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
       - main
 
 jobs:
-  jupyter-book:
+  deploy-book:
     name: Build Jupyter Book on Linux
     runs-on: "ubuntu-latest"
     defaults:
@@ -16,6 +16,10 @@ jobs:
     steps:
     - name: Checkout the repository
       uses: actions/checkout@v2
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
     - name: Set up conda
       uses: conda-incubator/setup-miniconda@v2
       with:
@@ -33,3 +37,8 @@ jobs:
       with:
         name: JupyterBook
         path: _build/html
+    - name: GitHub Pages action
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./book/_build/html

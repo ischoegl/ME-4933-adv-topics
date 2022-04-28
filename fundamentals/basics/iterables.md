@@ -11,10 +11,31 @@ kernelspec:
   name: python3
 ---
 
-![](../logo.png)
+![](../../logo.png)
 
 +++
 
-# Strings
+# Iterables
+<hr>
+
++++
+
+## Lists and Tuples
+<hr>
+
++++
+
+## Strings (cont'd)
+<hr>
+
++++
+
+## Sets
+<hr>
+
++++
+
+## Dictionaries
+<hr>
 
 +++

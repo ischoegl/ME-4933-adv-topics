@@ -8,16 +8,17 @@ defaults:  # The defaults key will be applied to all chapters and sub-sections
 parts:
   - caption: Fundamentals
     chapters:
-    - file: chapter-ide/index.md
-    - file: chapter-python/index.md
+    - file: fundamentals/intro/index.md
+    - file: fundamentals/tools/index.md
+    - file: fundamentals/basics/index.md
       sections:
-      - file: chapter-python/datatypes.md
-      - file: chapter-python/strings.md
-      - file: chapter-python/iterables.md
-    - file: chapter-programming/index.md
+      - file: fundamentals/basics/datatypes.md
+      - file: fundamentals/basics/strings.md
+      - file: fundamentals/basics/iterables.md
+    - file: fundamentals/language/index.md
   - caption: Scientific Python
     chapters:
-    - file: chapter-packages/index.md
+    - file: packages/index.md
   - caption: Case Studies
     chapters:
-    - file: chapter-topics/index.md
+    - file: topics/index.md

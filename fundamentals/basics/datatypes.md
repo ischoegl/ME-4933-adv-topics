@@ -11,7 +11,7 @@ kernelspec:
   name: python3
 ---
 
-![](../logo.png)
+![](../../logo.png)
 
 +++
 

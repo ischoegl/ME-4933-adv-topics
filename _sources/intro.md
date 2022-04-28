@@ -11,10 +11,22 @@ The objective is to introduce a new class introducing ME students to
 Proposed topics in form of a [Jupyter Book](https://jupyterbook.org). *Everything* is up for discussion.
 ```
 
-## Other Courses at LSU:
+## Relevant Courses in Mechanical Engineering
 <hr>
 
-The following courses exist in other departments (incomplete list)
+Most have not been taught in many years.
+
+* **ME 2543 Simulation Methods for Mechanical Engineers:** Computer-based problem solving techniques for mechanical engineering; numeric linear algebra and solution of ordinary differential equations; use of computers in simulations of mechanical engineering systems.
+* **ME 4573 Interactive Computer Graphics:** Analytical treatment of graphics using the digital computer; graphical display and input devices; computer graphics systems and standards; two- and three-dimensional transformations; geometric modeling; interactive techniques; basic data structures; realism in 3-D graphics; future trends.
+* **ME 4583 Applied Computer Graphics:** Application of computer graphics techniques to solve specific problems in engineering design, scientific visualization, and digital media.
+* **ME 4823 Interdisciplinary Fluid Dynamics: Computational Methods:** Numerical solution strategies for differential equations relevant to fluid flow and transport processes. Finite-difference, finite-volume and finite-element methods. Parallel computations.
+* **ME 7343 Computation of Fluid Flow and Heat Transfer:** Finite-difference methods for solving equations of fluid motions and energy; computer program use to solve complex problems involving fluid flow; heat transfer and chemical reaction; mathematical models for turbulence; radiation and combustion; their computing implications; application of prediction procedures for practical situations.
+* **ME 7533 Numerical Methods in Applied Mechanics:** Computer methods used to solve engineering problems; advanced numerical methods
+
+## Other Courses at LSU
+<hr>
+
+The following courses exist in ME and at other departments (incomplete list)
 
 ### Computer Science
 

@@ -11,7 +11,11 @@ kernelspec:
   name: python3
 ---
 
-![](../../logo.png)
+```{image} ../../logos/python_for_data_science.png
+:alt: python programming for data science
+:height: 100px
+```
+<hr>
 
 +++
 

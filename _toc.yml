@@ -16,9 +16,14 @@ parts:
       - file: fundamentals/basics/strings.md
       - file: fundamentals/basics/iterables.md
     - file: fundamentals/language/index.md
-  - caption: Scientific Python
+  - caption: Packages
     chapters:
     - file: packages/index.md
+      sections:
+      - file: packages/numpy.md
+      - file: packages/matplotlib.md
+      - file: packages/pandas.md
+      - file: packages/other.md
   - caption: Case Studies
     chapters:
     - file: topics/index.md

@@ -11,4 +11,8 @@ The objective is to introduce a new class introducing ME students to
 Proposed topics in form of a [Jupyter Book](https://jupyterbook.org). *Everything* is up for discussion.
 ```
 
+## Thoughts
+<hr>
+
 * [Context of this Course](context.md)
+* [References](books.md)

@@ -1,6 +1,18 @@
 # Context
 <hr>
 
++++
+
+## Key Concepts
+<hr>
+
+* [Mechatronics and Robotics Education: Standardizing Foundational Key
+Concepts](https://par.nsf.gov/servlets/purl/10184538) (survey of students, professors, and industry members):
+
+  Systems of linear equations; numerical integration; Runge-Kutta methods; error estimation; numerical solution of linear and nonlinear differential equations; numerical differentiation; matrix operations; numerical approximation of eigenvalues and eigenvectors; interpolation and splines; motion detection and object tracking; filtering and filter design; Fourier transform; least squares methods; feature extraction (data analysis); matrix diagonalization; singular value decomposition; principal component analysis (data analysis); condition numbers; classification methods (data analysis); dimensionality reduction; supervised learning; regression (including confidence intervals); hypothesis testing (data analysis); clustering (data analysis); root finding methods (Newton-Raphson, binary search, homotopy, etc.); special matrices (symmetric, positive definite, etc.); sparse matrices; application of iterative solution methods; finite element method (weighted residual methods in general); photogrammetry; algorithm design and debugging; digital image processing; project management/version control; data archival and retrieval
+
++++
+
 ## Relevant Courses in Mechanical Engineering
 <hr>
 

@@ -37,8 +37,23 @@ jobs:
       with:
         name: JupyterBook
         path: _build/html
-    - name: GitHub Pages action
-      uses: peaceiris/actions-gh-pages@v3
+    - if: github.repository == 'ischoegl/ME-4933-adv-topics'
+      name: Commit documentation changes
+      run: |
+        git clone https://github.com/ischoegl/ME-4933-adv-topics.git --branch gh-pages --single-branch gh-pages
+        cp -r _build/html/* gh-pages/
+        cd gh-pages
+        touch .nojekyll
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "Update book" -a || true
+        # The above command will fail if no changes were present, so we ignore
+        # that.
+    - if: github.repository == 'ischoegl/ME-4933-adv-topics'
+      name: Push changes
+      uses: ad-m/github-push-action@master
       with:
+        branch: gh-pages
+        directory: gh-pages
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./book/_build/html

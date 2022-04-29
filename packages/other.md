@@ -71,24 +71,28 @@ The [h5py](https://www.h5py.org/) package is a Pythonic interface to the HDF5 bi
 +++
 
 ## JAX
+<hr>
 
 [JAX](https://jax.readthedocs.io/en/latest) is NumPy on the CPU, GPU, and TPU, with great automatic differentiation for high-performance machine learning research.
 
 +++
 
 ## PyMC
+<hr>
 
 [PyMC3](https://docs.pymc.io/) (formerly PyMC3) is a Python package for Bayesian statistical modeling focusing on advanced Markov chain Monte Carlo (MCMC) and variational inference (VI) algorithms. Its flexibility and extensibility make it applicable to a large suite of problems.
 
 +++
 
 ## emcee
+<hr>
 
 [emcee](https://emcee.readthedocs.io/) is an MIT licensed pure-Python implementation of Goodman & Weare’s Affine Invariant Markov chain Monte Carlo (MCMC) Ensemble sampler and these pages will show you how to use it.
 
 +++
 
 ## OpenCV
+<hr>
 
 [OpenCV](https://opencv.org/) (Open Source Computer Vision Library) is an open source computer vision and machine learning software library.
 

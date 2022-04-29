@@ -12,12 +12,12 @@ Some thoughts on [Matlab vs. Python](https://realpython.com/matlab-vs-python/)
 ## Interpreted vs Compiled
 <hr>
 
-Python is an interpreted language, which makes it easy to use. A short and imprecise definition of differences is (adapted from a [stackoverflow answer](https://stackoverflow.com/questions/3265357/compiled-vs-interpreted-languages)):
+A short and imprecise definition of differences is (adapted from a [stackoverflow answer](https://stackoverflow.com/questions/3265357/compiled-vs-interpreted-languages)):
 
 * **Compiled language:** Entire program is translated to machine code at once, then the machine code is run by the CPU. Advantages are:
 
   * Faster performance by directly using the native code of the target machine
-  * Opportunity to apply quite powerful optimisations during the compile stage
+  * Opportunity to apply quite powerful optimizations during the compile stage
 
 * **Interpreted language:** Program is read line-by-line and as soon as a line is read the machine instructions for that line are executed by the CPU. Advantages are:
 
@@ -25,7 +25,9 @@ Python is an interpreted language, which makes it easy to use. A short and impre
   * No need to run a compilation stage: can execute code directly "on the fly"
   * Can be more convenient for dynamic languages
 
-At this point, few languages these days are purely compiled or purely interpreted, and is often a mix (see [blog post](https://orangejuiceliberationfront.com/the-difference-between-compiler-and-interpreter/)).
+* **Hybrid approaches:** At this point, few languages these days are purely compiled or purely interpreted, and are often a mix (see [blog post](https://orangejuiceliberationfront.com/the-difference-between-compiler-and-interpreter/)).
+
+Python falls in the third category; while it is not compiled to machine code ahead of time, it is compiled to [bytecode](https://en.wikipedia.org/wiki/Bytecode) that is then executed by the Python virtual machine.
 
 +++
 

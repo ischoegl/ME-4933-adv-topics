@@ -406,12 +406,12 @@ const thebe_selector_output = ".output, .cell_output"
 <div class="section" id="interpreted-vs-compiled">
 <h2>Interpreted vs Compiled<a class="headerlink" href="#interpreted-vs-compiled" title="Permalink to this headline">¶</a></h2>
 <hr>
-<p>Python is an interpreted language, which makes it easy to use. A short and imprecise definition of differences is (adapted from a <a class="reference external" href="https://stackoverflow.com/questions/3265357/compiled-vs-interpreted-languages">stackoverflow answer</a>):</p>
+<p>A short and imprecise definition of differences is (adapted from a <a class="reference external" href="https://stackoverflow.com/questions/3265357/compiled-vs-interpreted-languages">stackoverflow answer</a>):</p>
 <ul class="simple">
 <li><p><strong>Compiled language:</strong> Entire program is translated to machine code at once, then the machine code is run by the CPU. Advantages are:</p>
 <ul>
 <li><p>Faster performance by directly using the native code of the target machine</p></li>
-<li><p>Opportunity to apply quite powerful optimisations during the compile stage</p></li>
+<li><p>Opportunity to apply quite powerful optimizations during the compile stage</p></li>
 </ul>
 </li>
 <li><p><strong>Interpreted language:</strong> Program is read line-by-line and as soon as a line is read the machine instructions for that line are executed by the CPU. Advantages are:</p>
@@ -421,8 +421,9 @@ const thebe_selector_output = ".output, .cell_output"
 <li><p>Can be more convenient for dynamic languages</p></li>
 </ul>
 </li>
+<li><p><strong>Hybrid approaches:</strong> At this point, few languages these days are purely compiled or purely interpreted, and are often a mix (see <a class="reference external" href="https://orangejuiceliberationfront.com/the-difference-between-compiler-and-interpreter/">blog post</a>).</p></li>
 </ul>
-<p>At this point, few languages these days are purely compiled or purely interpreted, and is often a mix (see <a class="reference external" href="https://orangejuiceliberationfront.com/the-difference-between-compiler-and-interpreter/">blog post</a>).</p>
+<p>Python falls in the third category; while it is not compiled to machine code ahead of time, it is compiled to <a class="reference external" href="https://en.wikipedia.org/wiki/Bytecode">bytecode</a> that is then executed by the Python virtual machine.</p>
 </div>
 <div class="section" id="ease-of-use">
 <h2>Ease of Use<a class="headerlink" href="#ease-of-use" title="Permalink to this headline">¶</a></h2>

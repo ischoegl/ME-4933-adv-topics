@@ -9,10 +9,11 @@ Some thoughts on [Matlab vs. Python](https://realpython.com/matlab-vs-python/)
 
 +++
 
-## Interpreted vs Compiled
+## Ease of Use
 <hr>
 
-A short and imprecise definition of differences is (adapted from a [stackoverflow answer](https://stackoverflow.com/questions/3265357/compiled-vs-interpreted-languages)):
+A short and imprecise definition of differences between programming languages is (adapted from a
+[stackoverflow answer](https://stackoverflow.com/questions/3265357/compiled-vs-interpreted-languages)):
 
 * **Compiled language:** Entire program is translated to machine code at once, then the machine code is run by the CPU. Advantages are:
 
@@ -31,7 +32,7 @@ Python falls in the third category; while it is not compiled to machine code ahe
 
 +++
 
-## Ease of Use
+## Ease of Installation
 <hr>
 
 Python can be downloaded from a number of different sources, called **distributions** (Example: Python downloaded from the [official Python website](https://www.python.org/)).
@@ -49,6 +50,11 @@ Python can be downloaded from a number of different sources, called **distributi
 * [official Python](https://www.python.org/)
 * [PyCharm](https://www.jetbrains.com/pycharm/)
 * [Visual Studio](https://visualstudio.microsoft.com/vs/features/python/)
+
++++
+
+## Great Community Support
+<hr>
 
 +++
 

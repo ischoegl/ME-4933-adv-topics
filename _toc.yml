@@ -23,6 +23,7 @@ parts:
       - file: packages/numpy.md
       - file: packages/matplotlib.md
       - file: packages/pandas.md
+      - file: packages/scipy.md
       - file: packages/other.md
   - caption: Case Studies
     chapters:

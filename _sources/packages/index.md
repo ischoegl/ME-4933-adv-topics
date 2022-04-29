@@ -2,7 +2,7 @@
 
 +++
 
-# Scientific Python Packages
+# Scientific Python
 <hr>
 
 +++

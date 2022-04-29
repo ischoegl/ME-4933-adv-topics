@@ -54,7 +54,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Suggested Topics" href="../topics/index.html" />
-    <link rel="prev" title="pandas" href="pandas.html" />
+    <link rel="prev" title="SciPy" href="scipy.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -155,7 +155,7 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1 current active has-children">
   <a class="reference internal" href="index.html">
-   Scientific Python Packages
+   Scientific Python
   </a>
   <input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
   <label for="toctree-checkbox-2">
@@ -167,7 +167,7 @@ const thebe_selector_output = ".output, .cell_output"
     <a class="reference internal" href="numpy.html">
      <code class="docutils literal notranslate">
       <span class="pre">
-       numpy
+       NumPy
       </span>
      </code>
     </a>
@@ -186,6 +186,15 @@ const thebe_selector_output = ".output, .cell_output"
      <code class="docutils literal notranslate">
       <span class="pre">
        pandas
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="scipy.html">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       SciPy
       </span>
      </code>
     </a>
@@ -297,13 +306,8 @@ const thebe_selector_output = ".output, .cell_output"
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#scipy">
-   scipy
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#sympy">
-   sympy
+   SymPy
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -318,12 +322,12 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#numba">
-   numba
+   Numba
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#pytorch">
-   pyTorch
+   PyTorch
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -332,13 +336,38 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#scikit-learn-scikit-image">
-   scikit-learn / scikit-image
+  <a class="reference internal nav-link" href="#keras">
+   Keras
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#keras">
-   Keras
+  <a class="reference internal nav-link" href="#scikit-learn">
+   scikit-learn
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#scikit-image">
+   scikit-image
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#jax">
+   JAX
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#pymc">
+   PyMC
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#emcee">
+   emcee
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#opencv">
+   OpenCV
   </a>
  </li>
 </ul>
@@ -362,13 +391,8 @@ const thebe_selector_output = ".output, .cell_output"
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#scipy">
-   scipy
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#sympy">
-   sympy
+   SymPy
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -383,12 +407,12 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#numba">
-   numba
+   Numba
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#pytorch">
-   pyTorch
+   PyTorch
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -397,13 +421,38 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#scikit-learn-scikit-image">
-   scikit-learn / scikit-image
+  <a class="reference internal nav-link" href="#keras">
+   Keras
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#keras">
-   Keras
+  <a class="reference internal nav-link" href="#scikit-learn">
+   scikit-learn
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#scikit-image">
+   scikit-image
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#jax">
+   JAX
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#pymc">
+   PyMC
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#emcee">
+   emcee
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#opencv">
+   OpenCV
   </a>
  </li>
 </ul>
@@ -420,47 +469,66 @@ const thebe_selector_output = ".output, .cell_output"
 <div class="tex2jax_ignore mathjax_ignore section" id="other-packages">
 <h1>Other packages<a class="headerlink" href="#other-packages" title="Permalink to this headline">¶</a></h1>
 <hr>
-<div class="section" id="scipy">
-<h2>scipy<a class="headerlink" href="#scipy" title="Permalink to this headline">¶</a></h2>
-<hr>
-</div>
 <div class="section" id="sympy">
-<h2>sympy<a class="headerlink" href="#sympy" title="Permalink to this headline">¶</a></h2>
+<h2>SymPy<a class="headerlink" href="#sympy" title="Permalink to this headline">¶</a></h2>
 <hr>
+<p><a class="reference external" href="https://www.sympy.org/">SymPy</a> is a Python library for symbolic mathematics. It aims to become a full-featured computer algebra system (CAS) while keeping the code as simple as possible in order to be comprehensible and easily extensible.</p>
 </div>
 <div class="section" id="h5py">
 <h2>h5py<a class="headerlink" href="#h5py" title="Permalink to this headline">¶</a></h2>
 <hr>
+<p>The <a class="reference external" href="https://www.h5py.org/">h5py</a> package is a Pythonic interface to the HDF5 binary data format.</p>
 </div>
 <div class="section" id="imageio">
 <h2>imageio<a class="headerlink" href="#imageio" title="Permalink to this headline">¶</a></h2>
 <hr>
-<p>interface to read and write a wide range of image data, including animated images, volumetric data, and scientific formats</p>
+<p><a class="reference external" href="https://imageio.readthedocs.io/">Imageio</a> is a Python library that provides an easy interface to read and write a wide range of image data, including animated images, volumetric data, and scientific formats.</p>
 </div>
 <div class="section" id="numba">
-<h2>numba<a class="headerlink" href="#numba" title="Permalink to this headline">¶</a></h2>
+<h2>Numba<a class="headerlink" href="#numba" title="Permalink to this headline">¶</a></h2>
 <hr>
-<p>high performance Python compiler</p>
+<p><a class="reference external" href="https://numba.pydata.org/">Numba</a> is an open source JIT compiler that translates a subset of Python and NumPy code into fast machine code.</p>
 </div>
 <div class="section" id="pytorch">
-<h2>pyTorch<a class="headerlink" href="#pytorch" title="Permalink to this headline">¶</a></h2>
+<h2>PyTorch<a class="headerlink" href="#pytorch" title="Permalink to this headline">¶</a></h2>
 <hr>
-<p>open source machine learning framework that accelerates the path from research prototyping to production deployment</p>
+<p><a class="reference external" href="https://pytorch.org/">PyTorch</a> is an open source machine learning framework that accelerates the path from research prototyping to production deployment.</p>
 </div>
 <div class="section" id="tensorflow">
 <h2>Tensorflow<a class="headerlink" href="#tensorflow" title="Permalink to this headline">¶</a></h2>
 <hr>
-<p>end-to-end open source platform for machine learning</p>
-</div>
-<div class="section" id="scikit-learn-scikit-image">
-<h2>scikit-learn / scikit-image<a class="headerlink" href="#scikit-learn-scikit-image" title="Permalink to this headline">¶</a></h2>
-<hr>
-<p>functions related to machine learning tasks / image processing, compatible with the similar library in SciPy</p>
+<p><a class="reference external" href="https://www.tensorflow.org/">TensorFlow</a> is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries and community resources that lets researchers push the state-of-the-art in ML and developers easily build and deploy ML powered applications.</p>
 </div>
 <div class="section" id="keras">
 <h2>Keras<a class="headerlink" href="#keras" title="Permalink to this headline">¶</a></h2>
 <hr>
-<p>deep learning framework to generate neural networks</p>
+<p><a class="reference external" href="https://keras.io/">Keras</a> is a deep learning API written in Python, running on top of the machine learning platform TensorFlow. It was developed with a focus on enabling fast experimentation.</p>
+</div>
+<div class="section" id="scikit-learn">
+<h2>scikit-learn<a class="headerlink" href="#scikit-learn" title="Permalink to this headline">¶</a></h2>
+<hr>
+<p><a class="reference external" href="https://scikit-learn.org/">Scikit-learn</a> is an open source machine learning library that supports supervised and unsupervised learning. It also provides various tools for model fitting, data preprocessing, model selection, model evaluation, and many other utilities.</p>
+</div>
+<div class="section" id="scikit-image">
+<h2>scikit-image<a class="headerlink" href="#scikit-image" title="Permalink to this headline">¶</a></h2>
+<hr>
+<p><a class="reference external" href="https://scikit-image.org/">scikit-image</a> is a collection of algorithms for image processing.</p>
+</div>
+<div class="section" id="jax">
+<h2>JAX<a class="headerlink" href="#jax" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://jax.readthedocs.io/en/latest">JAX</a> is NumPy on the CPU, GPU, and TPU, with great automatic differentiation for high-performance machine learning research.</p>
+</div>
+<div class="section" id="pymc">
+<h2>PyMC<a class="headerlink" href="#pymc" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://docs.pymc.io/">PyMC3</a> (formerly PyMC3) is a Python package for Bayesian statistical modeling focusing on advanced Markov chain Monte Carlo (MCMC) and variational inference (VI) algorithms. Its flexibility and extensibility make it applicable to a large suite of problems.</p>
+</div>
+<div class="section" id="emcee">
+<h2>emcee<a class="headerlink" href="#emcee" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://emcee.readthedocs.io/">emcee</a> is an MIT licensed pure-Python implementation of Goodman &amp; Weare’s Affine Invariant Markov chain Monte Carlo (MCMC) Ensemble sampler and these pages will show you how to use it.</p>
+</div>
+<div class="section" id="opencv">
+<h2>OpenCV<a class="headerlink" href="#opencv" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://opencv.org/">OpenCV</a> (Open Source Computer Vision Library) is an open source computer vision and machine learning software library.</p>
 </div>
 </div>
 
@@ -489,11 +557,11 @@ const thebe_selector_output = ".output, .cell_output"
             
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="pandas.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="scipy.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title"><code class="docutils literal notranslate"><span class="pre">pandas</span></code></p>
+            <p class="prev-next-title"><code class="docutils literal notranslate"><span class="pre">SciPy</span></code></p>
         </div>
     </a>
     <a class='right-next' id="next-link" href="../topics/index.html" title="next page">

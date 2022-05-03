@@ -5,7 +5,8 @@ channels:
 dependencies:
   - python=3.9
   - numpy
-  # - scipy
+  - pandas
+  - scipy
   # - numba
   # - dask
   # - ruamel.yaml
@@ -14,6 +15,7 @@ dependencies:
   - ipython
   - jupyter
   - matplotlib
+  - openpyxl
   # -  pylint
   - jupyter-book
   - jupyterlab

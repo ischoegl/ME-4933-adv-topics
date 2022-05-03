@@ -1,3 +1,9 @@
+---
+html_meta:
+  "robots": "noindex"
+  "google-site-verification": "aKd9B87hUHEEvlVzPq3Xtx6iJt4A15XwyP5UYd0OLrE"
+---
+
 # ME 4933 Advanced Topics in Mechanical Engineering
 <hr>
 

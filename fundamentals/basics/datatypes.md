@@ -1,4 +1,6 @@
 ---
+html_meta:
+  "robots": "noindex"
 jupytext:
   text_representation:
     extension: .md

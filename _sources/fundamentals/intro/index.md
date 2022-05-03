@@ -2,6 +2,11 @@
 
 +++
 
+---
+html_meta:
+  "robots": "noindex"
+---
+
 # Why Python?
 <hr>
 

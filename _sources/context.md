@@ -1,3 +1,8 @@
+---
+html_meta:
+  "robots": "noindex"
+---
+
 # Context
 <hr>
 

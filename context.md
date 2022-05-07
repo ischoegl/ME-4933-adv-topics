@@ -23,7 +23,9 @@ Concepts](https://par.nsf.gov/servlets/purl/10184538) (survey of students, profe
 
 ### Active Courses
 
-* **ME 2543 Simulation Methods for Mechanical Engineers:** Computer-based problem solving techniques for mechanical engineering; numeric linear algebra and solution of ordinary differential equations; use of computers in simulations of mechanical engineering systems.
+* **CM 1020 Engineering Graphics for Mechanical Engineering (2):** 4 hrs. lab. Conception, visualization and communication of creative design concepts; introduction to engineering drafting and USA Standards Institute standards; freehand sketching; three-dimensional forms used in solution of engineering problems; use of solid modeling software in design and design communication.
+
+* **ME 2543 Simulation Methods for Mechanical Engineers (3):** Computer-based problem solving techniques for mechanical engineering; numeric linear algebra and solution of ordinary differential equations; use of computers in simulations of mechanical engineering systems.
 
 ### Legacy Courses
 
@@ -61,3 +63,8 @@ Most have not been taught in many years.
 * **CHE 2171 Chemical Engineering Fundamentals: Material and Energy Balances (4):** 3 hrs. lecture; 3 hrs. lab. Emphasis on basic principles and concepts used to make chemical engineering calculations; techniques used in these calculations applied to typical industrial problems. A three hour computer lab will reinforce lecture material and give practical experience with computer simulation packages.
 * **CHE 2176 Numerical Methods and Programming for Chemical Engineers (4):** 3 hrs. lecture; 3 hrs. lab Basic concepts and techniques in analysis of engineering processes; mathematical description of physical systems and application of modern computers to solution of resulting equations. A three-hour computer lab will reinforce lecture material and give practical experience in scripting/programming.
 * **CHE 7530 Computational Methods in Chemical Engineering:** Advanced computational modeling techniques widely used in one or more of the following areas that are relevant to the modern chemical engineering discipline, including: catalysis and reaction engineering; thermodynamics; transport phenomena; process control. (*Solving differential equations using MATLAB and COMSOL. Project-heavy course. Covers computational methods in transport, discretization, stability, bifurcation, chaos etc.*)
+
+## Other Relevant Courses at LSU
+<hr>
+
+???

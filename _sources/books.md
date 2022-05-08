@@ -24,6 +24,15 @@ A collection of links
 * [The Python Workbook](https://link-springer-com.libezp.lib.lsu.edu/book/10.1007/978-3-030-18873-3) (PDF)
 * [Numerical Methods in Engineering with Python 3](https://www.cambridge.org/core/books/numerical-methods-in-engineering-with-python-3/95151C37C2F427F30DC90FA619FE79F9) (PDF?)
 
++++
+
+## Python Workflows
+<hr>
+
+* [Python Packages](https://py-pkgs.org/) (jupyter-book)
+
++++
+
 ## Applications
 <hr>
 

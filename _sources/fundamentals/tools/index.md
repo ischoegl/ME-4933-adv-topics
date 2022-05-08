@@ -33,3 +33,8 @@ Some thoughts on [Matlab vs. Python](https://realpython.com/matlab-vs-python/)
 <hr>
 
 +++
+
+## Packaging
+<hr>
+
+[Python Packages](https://py-pkgs.org/) (jupyter-book)

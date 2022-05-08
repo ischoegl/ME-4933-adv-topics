@@ -1,11 +1,11 @@
-![](../../logo.png)
-
-+++
-
 ---
 html_meta:
   "robots": "noindex"
 ---
+
+![](../../logo.png)
+
++++
 
 # Why Python?
 <hr>

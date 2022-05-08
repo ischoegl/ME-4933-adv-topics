@@ -67,4 +67,5 @@ Most have not been taught in many years.
 ## Other Relevant Courses at LSU
 <hr>
 
-???
+* **MATH 4997:** Parallel implementation of computational mathematics problems using
+modern accelerated C++. [Course website](https://www.cct.lsu.edu/~pdiehl/teaching/2020/4997/) ... will be redeveloped as graduate Physics course.

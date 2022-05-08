@@ -19,6 +19,8 @@ kernelspec:
 ```
 <hr>
 
+This section is adapted from (Python Programming for Data Science)[https://www.tomasbeuzen.com/python-programming-for-data-sciencel].
+
 +++
 
 # Basic Data Types

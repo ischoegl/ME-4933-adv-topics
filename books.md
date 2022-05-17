@@ -58,6 +58,7 @@ A collection of links
 
 **Non-Free**
 
+* [Data-Driven Science and Engineering: Machine Learning, Dynamical Systems, and Control:](https://www.cambridge.org/highereducation/books/data-driven-science-and-engineering/6F9A730B7A9A9F43F68CF21A24BEC339#overview) Cambridge text - 2022 edition. [Companion website ](http://www.databookuw.com/)
 * [Hands-On Machine Learning with Scikit-Learn, Keras and TensorFlow:](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/) O'Reilly text (non-free)
 
 +++
